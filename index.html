@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In / Sign Up</title>
+    <link rel="shortcut icon" type="image/x-icons" href="img/shopify logo.png" sizes="any">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="vendor/boxicons-master/css/boxicons.min.css">
+    
+</head>
+<body>
+    <!-- container section -->
+    <div class="container">
+        <!-- Container Left Section -->
+        <div class="left_section">
+            <i class='bx bxl-shopify logo'></i>
+            <h3 class="left_section_title">Shopify</h3>
+            <p class="left_section_para">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            <p class="left_section_follow">Follow On</p>
+            <div class="left_section_icons">
+                <i class='bx bxl-facebook-circle'></i>
+                <i class='bx bxl-github' ></i>
+                <i class='bx bxl-slack' ></i>
+                <i class='bx bxl-youtube' ></i>
+            </div>
+        </div>
+        <!-- Contanier Right section -->
+        <div class="right_section">
+            <div class="right_section_btn_group">
+                <button class = "active" id="loginBtn" onclick="login()">Sign In</button>
+                <p>/</p>
+                <button id="registerBtn" onclick="register()">Sign Up</button>
+            </div>
+            <div class="right_section_groups" id="transition">
+                <!-- Sign In Section -->
+                <div class="right_section_Sign_in" id="sign-in">
+                    <h3 class="sign_in_title">Welcome to Shopify !</h3>
+                    <div class="right_section_inputs">
+                        <i class='bx bx-user'></i>
+                        <input type="text" placeholder="Username">
+                    </div>
+                    <div class="right_section_inputs">
+                        <i class='bx bx-lock-alt'></i>
+                        <input type="password" placeholder="Password">
+                        <i class='bx bx-show'></i>
+                        <i class='bx bx-hide' ></i>
+                    </div>
+                    <span class="forgetPw">Forget  Password</span>
+                    <button class="sign_in_btn">Get Started</button>
+                </div>
+                <!-- Sign Up Section -->
+                <div class="right_section_Sign_up" id="sign-up">
+                    
+                    <div class="right_section_Sign_up">
+                        <h3 class="sign_up_title">Start journey with us !</h3>
+                        <div class="right_section_inputs">
+                            <i class='bx bx-user'></i>
+                            <input type="text" placeholder="Username">
+                        </div>
+                        <div class="right_section_inputs">
+                            <i class='bx bx-envelope' ></i>
+                            <input type="text" placeholder="Email">
+                        </div>
+                        <div class="right_section_inputs">
+                            <i class='bx bx-lock-alt'></i>
+                            <input type="password" placeholder="Password">
+                        </div>
+                        <div class="right_section_inputs">
+                            <i class='bx bx-lock-alt'></i>
+                            <input type="password" placeholder="Confirm Password">
+                        </div>
+                        <button class="sign_up_btn">Register</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Main Js -->
+    <script src="js/main.js"></script>
+</body>
+</html>
